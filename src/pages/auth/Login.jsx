@@ -27,12 +27,10 @@ function Login() {
     return (
         <>
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-                <span style={{fontWeight:"bold"}}>
+                <span style={{fontWeight:"bold", fontSize:32}}>
                     Login With Google Account!
                 </span>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
-                    <TextField id="outlined-basic-email" label="Email" variant="outlined" type='email' />
-                    <TextField id="outlined-basic-password" label="Password" variant="outlined" type='password' />
                     <Button style={{ width: "100%" }} variant="contained">Login</Button>
                 </div>
                 <span>Or Login With?</span>
